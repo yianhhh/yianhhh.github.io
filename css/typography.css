@@ -39,6 +39,12 @@ body {
   line-height: 1.2;
 }
 
+#page-header.full_page #site-info > #site-title {
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+}
+
 #nav .menus_items {
   font-family: "Source Serif 4", Georgia, serif;
   font-weight: 500;
