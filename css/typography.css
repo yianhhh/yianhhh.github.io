@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "Source Serif 4";
+  src: url("/fonts/source-serif-4.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 200 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Blog Serif SC";
+  src: url("/fonts/noto-serif-sc.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  unicode-range: U+2E80-2FFF, U+3000-303F, U+31C0-31EF, U+3400-4DBF,
+    U+4E00-9FFF, U+F900-FAFF, U+FE10-FE1F, U+FE30-FE4F, U+FF00-FFEF;
+}
+
+:root {
+  --blog-serif: "Source Serif 4", "Blog Serif SC", "Noto Serif SC",
+    "Source Han Serif SC", "Songti SC", STSong, SimSun, serif;
+}
+
+body {
+  font-family: var(--blog-serif);
+  font-optical-sizing: auto;
+  line-height: 1.9;
+  -webkit-font-smoothing: antialiased;
+}
+
+#site-title,
+#nav .site-name {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+}
+
+#site-title {
+  line-height: 1.2;
+}
+
+#nav .menus_items {
+  font-family: "Source Serif 4", Georgia, serif;
+  font-weight: 500;
+}
+
+#article-container h1,
+#article-container h2,
+#article-container h3,
+#article-container h4,
+.article-title,
+.page-title,
+.author-info-name {
+  font-family: var(--blog-serif);
+  font-weight: 600;
+}
+
+#article-container p,
+#article-container li {
+  line-height: 1.95;
+}
+
+.site-data .headline {
+  font-size: 14px;
+}
